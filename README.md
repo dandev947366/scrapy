@@ -2,7 +2,7 @@
  Web Scraping with Scrapy, Python
 
 ## Add shell in scrapy.cfg file
-Under ==[settings]==, add
+Under *[settings]*, add
 `shell = ipython`
 
 ## Run shell
@@ -39,11 +39,11 @@ Under ==[settings]==, add
 >return href for next page
 `response.css('li.next a ::attr(href)').get()`
 
->return ==text== from xpath
-`response.xpath('/html/body/div[1]/div/ul/li[3]/a/==text()==').get()`
+>return *text* from xpath
+`response.xpath('/html/body/div[1]/div/ul/li[3]/a/*text()*').get()`
 
 >return book description from xpath
-`response.xpath('//*[@id="content_inner"]/article/p/==text()==').get()`
+`response.xpath('//*[@id="content_inner"]/article/p/*text()*').get()`
 
 >return table_rows from url
 `table_rows = response.css('table tr')`
