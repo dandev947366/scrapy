@@ -8,14 +8,14 @@ shell = ipython
 ## Run shell
 scrapy shell
 
-`fetch web page`
->>>fetch('https://books.toscrape.com/')
+>fetch web page
+`fetch('https://books.toscrape.com/')`
 
-`return list of books`
->>>response.css('article.product_pod') 
+>return list of books
+`response.css('article.product_pod')`
 
-`return first book`
->>>response.css('article.product_pod').get() 
+>return first book
+`response.css('article.product_pod').get()`
 
-`make books variable`
->>>books = response.css('article.product_pod')
+>make books variable
+`books = response.css('article.product_pod')`
