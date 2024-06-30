@@ -36,8 +36,11 @@ shell = ipython
 >return href attribute 
 `book.css('h3 a').attrib['href']`
 
+>return href for next page
+`response.css('li.next a ::attr(href)').get()`
+
 >exit shell
-`exit()` 
+`exit()` or `CRL D`
 
 ## Bookspider.py
 >add code to **parse** function
