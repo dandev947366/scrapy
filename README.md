@@ -2,8 +2,8 @@
  Web Scraping with Scrapy, Python
 
 ## Add shell in scrapy.cfg file
-Under *[settings]*, add
-`shell = ipython`
+>Under *[settings]*, add
+>>`shell = ipython`
 
 ## Run shell
 >start shell 
