@@ -64,4 +64,7 @@ Under *[settings]*, add
 >>`scrapy crawl bookspider`
 >
 >run and save data to csv 
->>`scrapy crawl bookspider -O bookdata.csv    `
+>>`scrapy crawl bookspider -O bookdata.csv`
+>
+>run and save data to json file
+>>`scrapy crawl bookspider -O bookdata.json`
