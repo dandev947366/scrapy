@@ -67,5 +67,8 @@
 >run and save data to csv 
 >>`scrapy crawl bookspider -O bookdata.csv`
 >
+>append data to current csv
+>>`scrapy crawl bookspider -o bookdata.csv`
+>
 >run and save data to json file
 >>`scrapy crawl bookspider -O bookdata.json`
